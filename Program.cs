@@ -5,9 +5,9 @@ using Microsoft.IdentityModel.Tokens;
 var builder = WebApplication.CreateBuilder(args);
 
 // Configurar JWT
-builder.Configuration.AddJsonFile("app.settings.json");
+builder.Configuration.AddJsonFile("appsettings.json");
 // Obtener la clave secreta de la configuración
-string? secretkey = builder.Configuration.GetSection("settings:secretkey").Value;
+string? secretkey = builder.Configuration.GetSection("settings").GetSection("secretkey").ToString();
 
 // Verificar si secretkey es null antes de convertirlo a bytes
 var keyBytes = Encoding.UTF8.GetBytes(secretkey ?? "");

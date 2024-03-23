@@ -1,5 +1,5 @@
 namespace ModelsUser.User;
-class User
+public class User
 {
     public User()
     {

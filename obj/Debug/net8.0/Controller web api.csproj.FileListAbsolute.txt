@@ -64,3 +64,16 @@ C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\obj\Debug\net8.0\refint\Control
 C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\obj\Debug\net8.0\Controller web api.pdb
 C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\obj\Debug\net8.0\Controller web api.genruntimeconfig.cache
 C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\obj\Debug\net8.0\ref\Controller web api.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\marti\OneDrive\Escritorio\Jwt .Net Core\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
