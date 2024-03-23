@@ -1,28 +1,43 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Agregar servicios al contenedor.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Agregar CORS
+builder.Services.AddCors(options =>
+{
+    // Definir una política CORS llamada "AllowAnyOrigin"
+    options.AddPolicy("AllowAnyOrigin", builder => 
+    {
+        // Permitir solicitudes desde cualquier origen
+        builder.AllowAnyOrigin()
+               // Permitir cualquier método HTTP
+               .AllowAnyMethod()
+               // Permitir cualquier encabezado HTTP
+               .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar el pipeline de solicitudes HTTP.
 if (app.Environment.IsDevelopment())
 {
-
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
+// Aplicar la política CORS "AllowAnyOrigin" a todas las solicitudes entrantes
+app.UseCors("AllowAnyOrigin");
+
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
-
-//NOTA = como no tengo servicios externos no agrego el servicio al contenedor
