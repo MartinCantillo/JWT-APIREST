@@ -12,6 +12,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+
     app.UseSwagger();
     app.UseSwaggerUI();
 }
@@ -23,3 +24,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//NOTA = como no tengo servicios externos no agrego el servicio al contenedor

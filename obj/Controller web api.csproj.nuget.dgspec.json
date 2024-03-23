@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marti\\OneDrive\\Escritorio\\Controller web api\\Controller web api.csproj": {}
+    "C:\\Users\\marti\\OneDrive\\Escritorio\\Jwt .Net Core\\Controller web api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marti\\OneDrive\\Escritorio\\Controller web api\\Controller web api.csproj": {
+    "C:\\Users\\marti\\OneDrive\\Escritorio\\Jwt .Net Core\\Controller web api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marti\\OneDrive\\Escritorio\\Controller web api\\Controller web api.csproj",
+        "projectUniqueName": "C:\\Users\\marti\\OneDrive\\Escritorio\\Jwt .Net Core\\Controller web api.csproj",
         "projectName": "Controller web api",
-        "projectPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Controller web api\\Controller web api.csproj",
+        "projectPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Jwt .Net Core\\Controller web api.csproj",
         "packagesPath": "C:\\Users\\marti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Controller web api\\obj\\",
+        "outputPath": "C:\\Users\\marti\\OneDrive\\Escritorio\\Jwt .Net Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marti\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,9 +43,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.4.1, )"
             }
           },
           "imports": [
